@@ -1,0 +1,111 @@
+% !TEX encoding = UTF-8 Unicode
+\documentclass[titlepage,english,a4]{thesis}
+
+\usepackage[nottoc,notlot,notlof]{tocbibind}
+\usepackage[toc,page]{appendix}
+
+\setlength{\cftbeforeloftitleskip}{5pt} % LOF: Listing of Figures
+\setlength{\cftbeforelottitleskip}{5pt} % LOT: Listing of Tables
+
+\usepackage{kantlipsum}
+\setlength{\textheight}{10in}%
+
+\usepackage{blindtext}
+\usepackage{tocbibind}
+\usepackage{hyperref}
+
+
+\def\DATE{\today}
+\def\TITLE{Thesis title}
+\def\SUBHEADING{A example on a Thesis}
+\def\AUTHOR{Elias Korhonen}
+\def\LEVEL{Master's Thesis}
+\def\PROGRAMME{Master of Engineering - Big Data Analytics}
+\def\UNIVERSITY{Arcada University of Applied Sciences}
+\def\IDENTIFICATION{313}
+\def\SUPERVISOR{Ludwig Von Drake}
+\def\COMMISSIONEDBY{Scrooge McDuck}
+\def\KEYWORDS{Ducks Birds Hawks}
+\def\PAGECOUNT{ \pageref{LastPage} }
+\def\DATEACCEPTANCE{1.10.2054}
+
+\begin{document}
+
+\begin{titlepage}
+\maketitle
+\end{titlepage}
+
+\begin{abstract}{english}
+This is the abstract. Blah blah blah...
+\end{abstract}
+
+
+%\begin{abstract}{swedish}
+%Ett sammandrag på svenska bokstaven där bokstäverna  å , ä och ö är inkluderade.
+%Check that the encoding is correct so that åäö are visible.
+%\end{abstract}
+
+%\begin{abstract}{finnish}
+%Samma på finska
+%\end{abstract}
+
+% Remove for swedish
+%\renewcommand{\contentsname}{INNEHÅLL}
+%\renewcommand{\listfigurename}{FIGURER}
+%\renewcommand{\listtablename}{TABELLER}
+
+
+
+\tableofcontents
+\addtocontents{toc}{\vspace{0.5cm}}
+
+\listoffigures
+\addtocontents{lof}{\vspace{0.5cm}}
+
+\listoftables
+\addtocontents{lot}{\vspace{0.5cm}}
+
+\cleardoublepage
+
+\input{0-Foreword}
+\cleardoublepage
+
+\input{1-Introduction}
+\cleardoublepage
+
+\input{2-Related}
+\cleardoublepage
+
+\input{3-Methodology}
+\cleardoublepage
+
+\input{4-Experiments}
+\cleardoublepage
+
+\input{5-Results}
+\cleardoublepage
+\input{6-Conclusions}
+
+
+% Here the bibliography
+\cleardoublepage
+\phantomsection
+% Uncomment for swedish
+%\renewcommand{\bibname}{Källor}
+\renewcommand{\bibname}{References}
+\bibliographystyle{bibliography}
+\bibliography{7-references}
+
+
+
+%\renewcommand{\bibname}{References}
+%\bibliographystyle{bibliography}
+%\bibliography{7-references}
+%\newpage
+\cleardoublepage
+\phantomsection
+\input{8-Appendices}
+
+
+
+\end{document} 

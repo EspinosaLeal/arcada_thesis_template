@@ -1,0 +1,40 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{}
+\providecommand{\selectlanguage}[1]{\relax}
+\input{\template/bibliography/babelbst.tex}
+\newcommand{\Capitalize}[1]{\uppercase{#1}}
+\newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\filbreak\bibitem[{Espinosa~Leal \bbletal{}(2019)Espinosa~Leal, Chapman \&
+  Westerlund}]{espinosa2019reinforcement}
+Espinosa~Leal, Leonardo; Chapman, Anthony \& Westerlund, Magnus. 2019,
+  Reinforcement learning for extended reality: designing self-play scenarios,
+  \capitalize\bblin{}: \emph{Proceedings of the 52nd Hawaii International
+  Conference on System Sciences}.
+
+\filbreak\bibitem[{Leal \bbletal{}(2015)Leal, Karpenko, Caro \&
+  Lopez-Acevedo}]{leal2015optimizing}
+Leal, LA~Espinosa; Karpenko, A; Caro, MA \& Lopez-Acevedo, O. 2015, Optimizing
+  a parametrized Thomas--Fermi--Dirac--Weizs{\"a}cker density functional for
+  atoms, \emph{Physical Chemistry Chemical Physics}, \bblvol{}~17, \bblno{}~47,
+  \bblpp{} 31463--31471.
+
+\filbreak\bibitem[{Leal \bbletal{}(2018)Leal, Bj{\"o}rk, Lendasse \&
+  Akusok}]{leal2018web}
+Leal, Leonardo~Espinosa; Bj{\"o}rk, Kaj-Mikael; Lendasse, Amaury \& Akusok,
+  Anton. 2018, A web page classifier library based on random image content
+  analysis using deep learning, \capitalize\bblin{}: \emph{Proceedings of the
+  11th PErvasive Technologies Related to Assistive Environments Conference},
+  \bblpp{} 13--16.
+
+\filbreak\bibitem[{Swasey \bbletal{}(2015)Swasey, Leal, Lopez-Acevedo,
+  Pavlovich \& Gwinn}]{swasey2015silver}
+Swasey, Steven~M; Leal, Leonardo~Espinosa; Lopez-Acevedo, Olga; Pavlovich,
+  James \& Gwinn, Elisabeth~G. 2015, Silver (I) as DNA glue: Ag+-mediated
+  guanine pairing revealed by removing Watson-Crick constraints,
+  \emph{Scientific reports}, \bblvol{}~5, , \bblp{} 10163.
+
+\end{thebibliography}

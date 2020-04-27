@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: 0-Arcada_Thesis.aux
+The style file: bibliography.bst
+Database file #1: 7-references.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty pages in espinosa2019reinforcement
+You've used 4 entries,
+            3264 wiz_defined-function locations,
+            688 strings with 6498 characters,
+and the built_in function-call counts, 3386 in all, are:
+= -- 258
+> -- 172
+< -- 6
++ -- 126
+- -- 48
+* -- 239
+:= -- 431
+add.period$ -- 8
+call.type$ -- 4
+change.case$ -- 32
+chr.to.int$ -- 4
+cite$ -- 5
+duplicate$ -- 243
+empty$ -- 245
+format.name$ -- 60
+if$ -- 699
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 45
+newline$ -- 23
+num.names$ -- 16
+pop$ -- 141
+preamble$ -- 1
+purify$ -- 32
+quote$ -- 0
+skip$ -- 150
+stack$ -- 0
+substring$ -- 143
+swap$ -- 137
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 36
+warning$ -- 1
+while$ -- 20
+width$ -- 0
+write$ -- 53
+(There was 1 warning)
